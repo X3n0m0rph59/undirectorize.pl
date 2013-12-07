@@ -177,7 +177,7 @@ sub find_matching_files_in_dir {
 
                 print BOLD, BRIGHT_YELLOW, "[WARN]: Skipped file \"$entry\" (Reason: non matching extension)\n", RESET unless $verbosity < 3;
 
-                last MATCH;
+                #last MATCH;
             }
         }
 
